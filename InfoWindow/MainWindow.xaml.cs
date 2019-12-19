@@ -29,5 +29,10 @@ namespace InfoWindow
         {
 
         }
+
+        private void ShowOffers()
+        {
+            ListofBestOffers.ItemsSource = null;
+        }
     }
 }

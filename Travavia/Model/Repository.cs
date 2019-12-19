@@ -7,7 +7,7 @@ using Travavia.Model;
 
 namespace Travavia.Classes
 {
-    class Repository
+    public class Repository
     {
         public List<Flight> Flights { get; set; }
         public Repository()

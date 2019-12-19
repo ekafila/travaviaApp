@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Travavia.Model
 {
-    class FlightInfo
+    public class FlightInfo
     {
         public int FlightInfoID { get; set; } 
         public decimal Price { get; set; }
