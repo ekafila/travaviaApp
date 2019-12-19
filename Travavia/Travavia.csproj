@@ -142,6 +142,7 @@
   <ItemGroup>
     <Compile Include="ApplicationContext.cs" />
     <Compile Include="Model\Flight.cs" />
+    <Compile Include="Model\FlightInfo.cs" />
     <Compile Include="Model\Repository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

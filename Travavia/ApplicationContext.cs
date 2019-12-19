@@ -11,6 +11,7 @@ namespace Travavia
     class ApplicationContext : DbContext 
     {
         public DbSet<Flight> Flights { get; set; }
+        public DbSet<FlightInfo> FlightInfo { get; set; }
         public ApplicationContext()
         {
             Database.EnsureCreated();
