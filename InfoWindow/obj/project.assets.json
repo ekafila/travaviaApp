@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\home\\.nuget\\packages\\": {}
+    "C:\\Users\\Марина\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\home\\Source\\Repos\\travaviaApp2\\InfoWindow\\InfoWindow.csproj",
+      "projectUniqueName": "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj",
       "projectName": "InfoWindow",
-      "projectPath": "C:\\Users\\home\\Source\\Repos\\travaviaApp2\\InfoWindow\\InfoWindow.csproj",
-      "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\home\\Source\\Repos\\travaviaApp2\\InfoWindow\\obj\\",
+      "projectPath": "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj",
+      "packagesPath": "C:\\Users\\Марина\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Марина\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
