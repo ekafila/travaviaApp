@@ -1,0 +1,38 @@
+﻿<Window x:Class="InfoWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InfoWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Background="MidnightBlue" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="180"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Left" FontSize="34" Grid.ColumnSpan="2" Margin="348,0,0,0">Travavia</TextBlock>
+        <TextBlock Margin="40,22,0,0" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" FontStyle="Italic">Find your ideal journey!</TextBlock>
+        <TextBlock VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Left" Grid.Row="1" Margin="15" FontSize="20">From:</TextBlock>
+        <TextBox x:Name="textBoxCountry" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="84,0,0,0" Width="301"  Grid.Row="1" ></TextBox>
+        <TextBlock VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="1" Margin="15" FontSize="20">To:</TextBlock>
+        <TextBox x:Name="textBoxCity" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="1" Margin="57,0,0,0" Grid.Row="1" Width="302"></TextBox>
+        <TextBlock VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Left" Grid.Row="2" FontSize="20" Margin="15">Departure date:</TextBlock>
+        <DatePicker x:Name="datePickerDeparture" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" FontSize="15" Margin="174,0,0,0" Width="211"></DatePicker>
+        <TextBlock VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="2" FontSize="20" Margin="15">Arrival date:</TextBlock>
+        <DatePicker x:Name="datePickerArrival" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15" Grid.Row="2" Grid.Column="1" Margin="144,0,0,0" Width="215"></DatePicker>
+        <TextBlock Grid.Row="3" Margin="15" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20">Company:</TextBlock>
+        <ComboBox Grid.Row="3" Margin="118,15,15,15" ></ComboBox>
+        <Button Click="ButtonClickFind" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="3" FontSize="20" Margin="0,17,117,0" Width="103">Find</Button>
+        <ListBox Grid.Row="4" Grid.ColumnSpan="2" Margin="50,0,41,0"/>
+        <Image Source="C:\Users\MSI6OF\source\repos\Travavia\InfoWindow\pfnorama.png" Height="78" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="216,0,0,0" Grid.RowSpan="2" Width="239" Grid.Column="1"></Image>
+    </Grid>
+</Window>
