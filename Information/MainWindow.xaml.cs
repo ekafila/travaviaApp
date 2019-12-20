@@ -22,15 +22,21 @@ namespace Information
     public partial class MainWindow : Window
     {
         FlyingManager fm = new FlyingManager();
-       
+        
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();            
+            ShowBest();
         }
         private void ShowBest()
         {
             ListOfBest.ItemsSource = null;
-            ListOfBest.ItemsSource = fm.GetFlights();
+            ListOfBest.ItemsSource = fm.Flights;
+        }
+
+        private void ButtonClickFind(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

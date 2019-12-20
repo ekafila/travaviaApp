@@ -8,7 +8,7 @@ using Travavia.Model;
 
 namespace Travavia
 {
-    class ApplicationContext : DbContext 
+    public class ApplicationContext : DbContext 
     {
         public DbSet<Flight> Flights { get; set; }
         public DbSet<FlightInfo> FlightInfo { get; set; }
