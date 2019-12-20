@@ -33,6 +33,6 @@
         <ComboBox Grid.Row="3" Margin="118,15,15,15" ></ComboBox>
         <Button Click="ButtonClickFind" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="3" FontSize="20" Margin="0,17,117,0" Width="103">Find</Button>
         <ListBox x:Name="ListOfBest" Grid.Row="4" Grid.ColumnSpan="2" Margin="50,0,41,0"/>
-        <Image Source="C:\Users\MSI6OF\source\repos\Travavia\Information\pfnorama.png" Height="78" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="216,0,0,0" Grid.RowSpan="2" Width="239" Grid.Column="1"></Image>
+        <!--<Image Source="C:\Users\MSI6OF\source\repos\Travavia\Information\pfnorama.png" Height="78" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="216,0,0,0" Grid.RowSpan="2" Width="239" Grid.Column="1"></Image>-->
     </Grid>
 </Window>
