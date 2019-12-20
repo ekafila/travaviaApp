@@ -16,22 +16,32 @@ namespace Travavia.Model
         //}
         public List<Flight> Flights { get; set; }
         public List<FlightInfo> FlightInfo { get; set; }
-        internal List<Flight> GetFlights() 
+        public FlyingManager()
+        {
+            Flights = GetFlights();
+            FlightInfo = GetDetails();
+        }
+        protected List<Flight> GetFlights() 
         {
             using (ApplicationContext db = new ApplicationContext())
             {
                 var flights = db.Flights.ToList();
-                Console.WriteLine($"{flights.Count}");
+                SortByDepartureDt(flights);
                 return flights;
             }
         }
-        internal List<FlightInfo> GetDetails()
+        protected List<FlightInfo> GetDetails()
         {
             using (ApplicationContext db = new ApplicationContext())
             {
                 var details = db.FlightInfo.ToList();
                 return details;
             }
-        }        
+        }
+        
+        protected void SortByDepartureDt(List<Flight> flightlist)
+        {
+            flightlist.Sort((x, y) => x.DepartureDT.CompareTo(y.DepartureDT));
+        }
     }
 }

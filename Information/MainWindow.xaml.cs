@@ -30,7 +30,7 @@ namespace Information
         private void ShowBest()
         {
             ListOfBest.ItemsSource = null;
-            ListOfBest.ItemsSource = FlyingManager.Flights
+            ListOfBest.ItemsSource = fm.GetFlights();
         }
     }
 }

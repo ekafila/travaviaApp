@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Travavia.Model;
 
 namespace ListFound
 {
@@ -20,6 +21,7 @@ namespace ListFound
     /// </summary>
     public partial class MainWindow : Window
     {
+        FlyingManager fm = new FlyingManager();
         public MainWindow()
         {
             InitializeComponent();
