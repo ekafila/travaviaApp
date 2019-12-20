@@ -1,9 +1,9 @@
-﻿<Window x:Class="InfoWindow.MainWindow"
+﻿<Window x:Class="Information.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:InfoWindow"
+        xmlns:local="clr-namespace:Information"
         mc:Ignorable="d"
         Title="MainWindow" Height="470" Background="MidnightBlue" Width="800">
     <Grid>
@@ -32,7 +32,7 @@
         <TextBlock Grid.Row="3" Margin="15" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20">Company:</TextBlock>
         <ComboBox Grid.Row="3" Margin="118,15,15,15" ></ComboBox>
         <Button Click="ButtonClickFind" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="3" FontSize="20" Margin="0,17,117,0" Width="103">Find</Button>
-        <ListBox x:Name="ListofBestOffers" Grid.Row="4" Grid.ColumnSpan="2" Margin="50,0,41,0"/>
-        <Image Source="C:\Users\MSI6OF\source\repos\Travavia\InfoWindow\pfnorama.png" Height="78" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="216,0,0,0" Grid.RowSpan="2" Width="239" Grid.Column="1"></Image>
+        <ListBox x:Name="ListOfBest" Grid.Row="4" Grid.ColumnSpan="2" Margin="50,0,41,0"/>
+        <Image Source="C:\Users\MSI6OF\source\repos\Travavia\Information\pfnorama.png" Height="78" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="216,0,0,0" Grid.RowSpan="2" Width="239" Grid.Column="1"></Image>
     </Grid>
 </Window>

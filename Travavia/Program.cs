@@ -10,9 +10,7 @@ namespace Travavia
     class Program
     {
         static void Main(string[] args)
-        {
-            
-            
+        {           
         }
     }
 }

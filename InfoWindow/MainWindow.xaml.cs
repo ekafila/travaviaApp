@@ -20,6 +20,7 @@ namespace InfoWindow
     /// </summary>
     public partial class MainWindow : Window
     {
+        FlyingManager fm = new FlyingManager();
         public MainWindow()
         {
             InitializeComponent();
@@ -33,6 +34,7 @@ namespace InfoWindow
         private void ShowOffers()
         {
             ListofBestOffers.ItemsSource = null;
+            ListofBestOffers.ItemsSource =
         }
     }
 }
