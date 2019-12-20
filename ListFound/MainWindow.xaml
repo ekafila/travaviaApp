@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ListFound"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Background="MidnightBlue" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="180"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontStyle="Italic" FontSize="30">List of suitable offers</TextBlock>
+        <ListBox x:Name="listBoxSuitable" Margin="15" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100" Width="700"></ListBox> 
     </Grid>
 </Window>
