@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI6OF\\source\\repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj": {}
+    "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI6OF\\source\\repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj": {
+    "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI6OF\\source\\repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj",
+        "projectUniqueName": "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj",
         "projectName": "InfoWindow",
-        "projectPath": "C:\\Users\\MSI6OF\\source\\repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj",
-        "packagesPath": "C:\\Users\\MSI6OF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI6OF\\source\\repos\\ekafila\\travaviaApp\\InfoWindow\\obj\\",
+        "projectPath": "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\InfoWindow.csproj",
+        "packagesPath": "C:\\Users\\Марина\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Марина\\Source\\Repos\\ekafila\\travaviaApp\\InfoWindow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MSI6OF\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Марина\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
