@@ -36,7 +36,22 @@ namespace Information
 
         private void ButtonClickFind(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            SelectFlights();
+        }
+
+        private void SelectFlights()
+        {
+            foreach (var item in fm.Flights)
+            {
+                if ((item.DepAirport == textBoxDep.Text) && (item.ArrAirport == textBoxArr.Text) && (item.DepartureDT == datePickerDeparture.SelectedDate))
+                {
+                    if (comboCompany.SelectedItem.ToString() == item.Company)
+                    {
+                        var window = new found();
+                        window.ShowDialog();
+                    }
+                }
+            }
         }
     }
 }
